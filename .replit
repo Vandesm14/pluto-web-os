@@ -19,10 +19,10 @@ start = "vscode-html-language-server --stdio"
   autoCreateQuotes = true
   autoClosingTags = true
   mirrorCursorOnMatchingTag = false
-  
+
     [languages.html.languageServer.configuration.html.completion]
     attributeDefaultValue = "doublequotes"
-  
+
     [languages.html.languageServer.configuration.html.format]
     enable = true
     wrapLineLength = 120
@@ -36,18 +36,18 @@ start = "vscode-html-language-server --stdio"
     wrapAttributes = "auto"
     templating = false
     unformattedContentDelimiter = ""
-  
+
     [languages.html.languageServer.configuration.html.suggest]
     html5 = true
-  
+
     [languages.html.languageServer.configuration.html.validate]
     scripts = true
     styles = true
-  
+
     [languages.html.languageServer.configuration.html.hover]
     documentation = true
     references = true
-  
+
     [languages.html.languageServer.configuration.html.trace]
     server = "off"
 
@@ -67,11 +67,11 @@ start = "vscode-css-language-server --stdio"
       [languages.css.languageServer.configuration.css.completion]
       triggerPropertyValueCompletion = true
       completePropertyWithSemicolon = true
-    
+
       [languages.css.languageServer.configuration.css.hover]
       documentation = true
       references = true
-    
+
       [languages.css.languageServer.configuration.css.lint]
       # Configure linting
       # ignore = don't show any warning or error
@@ -83,7 +83,7 @@ start = "vscode-css-language-server --stdio"
       duplicateProperties = "warning" # Do not use duplicate style definitions
       emptyRules = "warning" # Do not use empty rulesets
       float = "ignore" # Avoid using 'float'. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
-      fontFaceProperties = "warning" # @font-face rule must define 'src' and 'font-family' properties 
+      fontFaceProperties = "warning" # @font-face rule must define 'src' and 'font-family' properties
       hexColorLength = "error" # Hex colors must consist of three, four, six or eight hex numbers
       idSelector = "ignore" # Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
       ieHack = "ignore" # IE hacks are only necessary when supporting IE7 and older
@@ -97,21 +97,21 @@ start = "vscode-css-language-server --stdio"
       unknownVendorSpecificProperties = "ignore" # Unknown vendor specific property.
       vendorPrefix = "warning" # When using a vendor-specific prefix also include the standard property
       zeroUnits = "ignore" # No unit for zero needed
-    
+
       [languages.css.languageServer.configuration.css.trace]
       server = "off"
-    
+
     [languages.css.languageServer.configuration.scss]
     validate = true
-    
+
       [languages.css.languageServer.configuration.scss.completion]
       triggerPropertyValueCompletion = true
       completePropertyWithSemicolon = true
-    
+
       [languages.css.languageServer.configuration.scss.hover]
       documentation = true
       references = true
-    
+
       [languages.css.languageServer.configuration.scss.lint]
       # Configure linting
       # ignore = don't show any warning or error
@@ -123,7 +123,7 @@ start = "vscode-css-language-server --stdio"
       duplicateProperties = "warning" # Do not use duplicate style definitions
       emptyRules = "warning" # Do not use empty rulesets
       float = "ignore" # Avoid using 'float'. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
-      fontFaceProperties = "warning" # @font-face rule must define 'src' and 'font-family' properties 
+      fontFaceProperties = "warning" # @font-face rule must define 'src' and 'font-family' properties
       hexColorLength = "error" # Hex colors must consist of three, four, six or eight hex numbers
       idSelector = "ignore" # Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
       ieHack = "ignore" # IE hacks are only necessary when supporting IE7 and older
@@ -137,18 +137,18 @@ start = "vscode-css-language-server --stdio"
       unknownVendorSpecificProperties = "ignore" # Unknown vendor specific property.
       vendorPrefix = "warning" # When using a vendor-specific prefix also include the standard property
       zeroUnits = "ignore" # No unit for zero needed"
-    
+
     [languages.css.languageServer.configuration.less]
     validate = true
-    
+
       [languages.css.languageServer.configuration.less.completion]
       triggerPropertyValueCompletion = true
       completePropertyWithSemicolon = true
-    
+
       [languages.css.languageServer.configuration.less.hover]
       documentation = true
       references = true
-    
+
       [languages.css.languageServer.configuration.less.lint]
       # Configure linting
       # ignore = don't show any warning or error
@@ -160,7 +160,7 @@ start = "vscode-css-language-server --stdio"
       duplicateProperties = "warning" # Do not use duplicate style definitions
       emptyRules = "warning" # Do not use empty rulesets
       float = "ignore" # Avoid using 'float'. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
-      fontFaceProperties = "warning" # @font-face rule must define 'src' and 'font-family' properties 
+      fontFaceProperties = "warning" # @font-face rule must define 'src' and 'font-family' properties
       hexColorLength = "error" # Hex colors must consist of three, four, six or eight hex numbers
       idSelector = "ignore" # Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
       ieHack = "ignore" # IE hacks are only necessary when supporting IE7 and older
