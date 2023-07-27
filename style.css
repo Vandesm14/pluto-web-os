@@ -39,7 +39,7 @@ body {
   --outline: hsl(222, 23%, 22%);
 }
 
-:root[data-theme="red"] {
+:root[data-theme='red'] {
   color-scheme: dark;
   --primary: hsl(0, 81%, 21%);
   --negative: #b81414;
@@ -62,7 +62,7 @@ body {
   --neutral-focus: hsl(0, 27%, 20%);
   --outline: hsl(0, 23%, 22%);
 }
-:root[data-theme="green"] {
+:root[data-theme='green'] {
   color-scheme: dark;
   --primary: hsl(131, 81%, 21%);
   --negative: #b81414;
@@ -86,7 +86,7 @@ body {
   --outline: hsl(131, 23%, 22%);
 }
 
-:root[data-theme="chatify"] {
+:root[data-theme='chatify'] {
   color-scheme: dark;
   --primary: #124b31;
   --negative: #b81414;
@@ -110,7 +110,7 @@ body {
   --outline: #fff3;
 }
 
-:root[data-theme="light"] {
+:root[data-theme='light'] {
   color-scheme: light;
   --primary: #2864b8;
   --negative: #db4e4e;
@@ -135,11 +135,11 @@ body {
 }
 
 body {
-  background-color: #000;
+  background-color: #000000;
   color: var(--text);
-  font-family: "Inter", "Segoe UI Variable Display", system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Inter', 'Segoe UI Variable Display', system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -148,7 +148,7 @@ body {
 }
 
 .win-window.closing {
-  animation: slide-down 0.5s ease forwards;
+  animation: slide-down 150ms ease forwards;
 }
 .win-window.dragging {
   transition: none !important;
@@ -171,8 +171,7 @@ body {
   transition-duration: 0.35s;
   transition-timing-function: ease;
   box-shadow: 0px 0px 28px 2px rgba(0, 0, 0, 0.41);
-
-  animation: slide-up 0.5s ease forwards;
+  animation: slide-up 150ms ease forwards;
 }
 
 .win-window.max {
@@ -360,46 +359,46 @@ body {
   /*   background-color: #f003; */
 }
 
-.win-window .resize-grips div[data-resize-type="top"] {
+.win-window .resize-grips div[data-resize-type='top'] {
   top: -6px;
   left: 0;
   width: 100% !important;
   cursor: n-resize;
 }
-.win-window .resize-grips div[data-resize-type="right"] {
+.win-window .resize-grips div[data-resize-type='right'] {
   top: 0 !important;
   right: -6px !important;
   height: 100% !important;
   cursor: e-resize !important;
 }
-.win-window .resize-grips div[data-resize-type="bottom"] {
+.win-window .resize-grips div[data-resize-type='bottom'] {
   bottom: -6px;
   left: 0;
   width: 100% !important;
   cursor: s-resize;
 }
-.win-window .resize-grips div[data-resize-type="left"] {
+.win-window .resize-grips div[data-resize-type='left'] {
   top: 0;
   left: -6px;
   height: 100% !important;
   cursor: w-resize;
 }
-.win-window .resize-grips div[data-resize-type="top-right"] {
+.win-window .resize-grips div[data-resize-type='top-right'] {
   top: -6px;
   right: -6px;
   cursor: ne-resize;
 }
-.win-window .resize-grips div[data-resize-type="bottom-right"] {
+.win-window .resize-grips div[data-resize-type='bottom-right'] {
   bottom: -6px;
   right: -6px;
   cursor: se-resize;
 }
-.win-window .resize-grips div[data-resize-type="bottom-left"] {
+.win-window .resize-grips div[data-resize-type='bottom-left'] {
   bottom: -6px;
   left: -6px;
   cursor: sw-resize;
 }
-.win-window .resize-grips div[data-resize-type="top-left"] {
+.win-window .resize-grips div[data-resize-type='top-left'] {
   top: -6px;
   left: -6px;
   cursor: nw-resize;
@@ -533,7 +532,7 @@ iframe {
 
 .small-label {
   font-size: 80%;
-  color: #999;
+  color: #999999;
   font-weight: 500;
 }
 .superscript {
@@ -675,7 +674,7 @@ table > tbody > tr > td div {
   align-items: center;
 }
 thead::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -820,7 +819,6 @@ td {
   border-radius: 8px;
   border: 1px solid var(--outline);
   box-shadow: 0px 0px 28px 2px rgba(0, 0, 0, 0.41);
-
   animation: shortSlideUp 1s ease forwards;
 }
 
@@ -876,9 +874,9 @@ td {
   border-top: 1px solid var(--outline) 54;
 }
 .monospace {
-  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  font-family: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 }
 .log-error,
 .log-warn {
@@ -887,7 +885,7 @@ td {
 }
 .log-error::before,
 .log-warn::before {
-  content: "";
+  content: '';
   width: 20px;
   height: 24px;
   top: 0px;
@@ -903,9 +901,9 @@ td {
 }
 .log-error::before {
   background-color: #ff3b6b;
-  -webkit-mask: url("./assets/icons/error.svg") no-repeat center center;
+  -webkit-mask: url('./assets/icons/error.svg') no-repeat center center;
   -webkit-mask-size: 100% 100%;
-  mask: url("./assets/icons/error.svg") no-repeat center center;
+  mask: url('./assets/icons/error.svg') no-repeat center center;
   mask-size: 100% 100%;
 }
 .log-warn {
@@ -916,9 +914,9 @@ td {
 }
 .log-warn::before {
   background-color: #d7b600;
-  -webkit-mask: url("./assets/icons/warn.svg") no-repeat center center;
+  -webkit-mask: url('./assets/icons/warn.svg') no-repeat center center;
   -webkit-mask-size: 100% 100%;
-  mask: url("./assets/icons/warn.svg") no-repeat center center;
+  mask: url('./assets/icons/warn.svg') no-repeat center center;
   mask-size: 100% 100%;
 }
 
@@ -1000,7 +998,7 @@ ul {
 .ace-tm .ace_support.ace_function {
   color: #dcdcaa;
 }
-[data-theme="light"] .ace-tm .ace_support.ace_function {
+[data-theme='light'] .ace-tm .ace_support.ace_function {
   color: #29bd78;
 }
 
@@ -1107,7 +1105,7 @@ ul {
   position: relative;
 }
 .ace-tm .ace_indent-guide::before {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   top: 0;
@@ -1260,7 +1258,7 @@ svg:not(.ignore-css) {
   text-align: center;
   white-space: nowrap;
   text-overflow: ellipsis;
-  text-shadow: 0 0 20px #000;
+  text-shadow: 0 0 20px #000000;
 }
 
 .separator {
@@ -1309,7 +1307,7 @@ svg:not(.ignore-css) {
 /* Weather App */
 
 .weather-jumbo {
-  --bg: url("https://wallpapercave.com/wp/doNuhh5.jpg");
+  --bg: url('https://wallpapercave.com/wp/doNuhh5.jpg');
   display: flex;
   flex-direction: column;
   height: 174px;
@@ -1445,10 +1443,10 @@ hr {
 }
 
 .fadeIn {
-  animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 150ms ease forwards;
 }
 .fadeOut {
-  animation: fadeOut 0.5s ease forwards;
+  animation: fadeOut 150ms ease forwards;
 }
 
 .desktop .menu {
@@ -1459,15 +1457,12 @@ hr {
   align-items: flex-start;
   gap: 8px;
   flex-shrink: 0;
-
   border-radius: 4px;
   border: 1px solid var(--outline);
   background: var(--root);
-
   position: absolute;
   bottom: calc(100% + 8px);
   left: 0;
-
   max-height: 360px;
   height: 50vh;
 }
@@ -1485,7 +1480,7 @@ hr {
   background-image: var(--url);
   background-size: cover;
   background-position: center;
-  --url: url("./assets/user-avatar.svg");
+  --url: url('./assets/user-avatar.svg');
 }
 .desktop .menu > .me > .text {
   display: flex;
@@ -1566,10 +1561,10 @@ hr {
 }
 
 .opening {
-  animation: shortSlideUp 0.5s ease forwards;
+  animation: shortSlideUp 150ms ease forwards;
 }
 .closing {
-  animation: shortSlideDown 0.5s ease forwards;
+  animation: shortSlideDown 150ms ease forwards;
 }
 
 .card-box {
